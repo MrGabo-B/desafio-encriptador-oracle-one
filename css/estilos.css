@@ -1,0 +1,97 @@
+body {
+  background: #e5e5e5;
+}
+header {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;  
+}
+.titulo-challenge{
+    display: flex;
+    justify-content: center;
+}
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: bold;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.cajas-texto {
+  display: flex;
+  margin: 0 40px;
+}
+.area-encriptador {
+  margin: 0px 40px;
+}
+.input-texto {
+  resize: none;
+  border-radius: 1em;
+  font-size: 20px;
+  padding: 10px;
+}
+.botones-encriptado {
+  display: flex;
+  height: 50px;
+  margin-top: 10px;
+  justify-content: center;
+}
+.btnencriptar {
+  width: 150px;
+  height: 40px;
+  background-color: darkblue;
+  color: white;
+  font-size: 15px;
+  border-radius: 1em;
+  margin-right:5px ;
+  border: 0.5px solid black;
+}
+.btndesencriptar {
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  border-radius: 1em;
+  margin-left:5px ;
+  border: 0.5px solid black;
+
+}
+.area-mensaje {
+  display: flex;
+  flex-direction: column;
+}
+.mensaje {
+  resize: none;
+  font-size: 20px;
+  border-radius: 1em;
+  padding: 10px;
+  background-image: url("../img/munheco.png");
+  background-repeat: no-repeat;
+  background-position: 18px;
+  background-size: 200px;
+  text-align: center;
+}
+.botones-option {
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin-top: 10px;
+}
+.btncopiar {
+  font-size: 15px;
+  width: 150px;
+  height: 40px;
+  border-radius: 1em;
+}
+.btncopiar, .btndesencriptar{
+    border: 1px solid darkblue;
+    color: darkblue;
+}
+.btncopiar, .btndesencriptar, .btnencriptar:hover{
+    cursor: pointer;
+}

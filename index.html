@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <title>Challenge Encriptador Oracle One</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/estilos.css" />
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="/img/logo.png" alt="Este es el logo de alura" />
+    <h1 class="titulo-challenge">Challenge Encriptador</h1>
+  </header>
+  <main>
+    <div class="cajas-texto">
+      <section class="area-encriptador">
+        <textarea class="input-texto" cols="40" rows="18" placeholder="Ingrese el texto aquí"
+          onkeyup="alertaInput()"></textarea>
+        <p class="valInputTexto"></p>
+        <div class="botones-encriptado">
+          <button class="btnencriptar" onclick="btnEncriptar()">
+            Encriptar
+          </button>
+          <button class="btndesencriptar" onclick="btnDesencriptar()">
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <section class="area-mensaje">
+        <textarea class="mensaje" cols="20" rows="18" placeholder="Ningún mensaje fue encontrado"
+          onkeyup="alertaInputMensaje()"></textarea>
+        <div class="botones-option">
+          <button class="btncopiar" onclick="copiarTexto()">Copiar</button>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="js/index.js"></script>
+</body>
+</html>
