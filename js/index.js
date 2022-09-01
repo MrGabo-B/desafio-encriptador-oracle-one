@@ -54,7 +54,6 @@ function btnDesencriptar() {
     inputTexto.value = "";
     mensaje.style.backgroundImage = "none";
     mensaje.focus();
-
   }
 }
 function copiarTexto() {
