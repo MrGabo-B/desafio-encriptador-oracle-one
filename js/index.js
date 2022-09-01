@@ -43,6 +43,7 @@ function btnEncriptar() {
     mensaje.value = encriptar(inputTexto.value);
     inputTexto.value = "";
     mensaje.style.backgroundImage = "none";
+    mensaje.focus();
   }
 }
 function btnDesencriptar() {
@@ -52,6 +53,8 @@ function btnDesencriptar() {
     mensaje.value = desencriptar(inputTexto.value);
     inputTexto.value = "";
     mensaje.style.backgroundImage = "none";
+    mensaje.focus();
+
   }
 }
 function copiarTexto() {
